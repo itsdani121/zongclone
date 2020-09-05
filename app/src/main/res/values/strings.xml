@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">zongclone</string>
+    <string name="zongclone">ZongClone</string>
+    <string name="contact">0303 7806380</string>
+    <string name="number">45.0</string>
+    <string name="currency">pkr</string>
+    <string name="details">Expire on 1st Sep,2021</string>
+    <string name="recharge">Recharge</string>
+    <string name="loan">Loan</string>
+    <string name="home">Home</string>
+    <string name="usage">Usage</string>
+    <string name="bundles">Bundles</string>
+    <string name="latest">Latest</string>
+    <string name="more">More</string>
+    <string name="numbers">132465</string>
+    <string name="mb">MB</string>
+    <string name="remaining">remaining</string>
+    <string name="offers">active offers</string>
+    <string name="msb">Msg</string>
+    <string name="rewards">Rewards</string>
+    <string name="discounts">Discounts</string>
+    <string name="infor">Infotainment</string>
+    <string name="shop">Shop</string>
+    <string name="option">more option for more convenience.</string>
+    <string name="online">You can now use easypaisa account to recharge online</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hot_offers">Hot Offers:</string>
+    <string name="view_all_offers">View All Offers</string>
+    <string name="good_night_offer">Good Night Offer</string>
+    <string name="_2_5gb">2.5GB</string>
+    <string name="pkr">16PKR</string>
+    <string name="day">Day Time Offer</string>
+</resources>
