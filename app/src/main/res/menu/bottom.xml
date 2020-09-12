@@ -2,12 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/home"
+        android:id="@+id/mainFragment"
         android:icon="@drawable/ic_home"
         android:title="@string/home"
         app:showAsAction="always" />
     <item
-        android:id="@+id/usage"
+        android:id="@+id/usageFragment"
         android:icon="@drawable/ic_data_usage"
         android:title="@string/usage"
         app:showAsAction="always" />

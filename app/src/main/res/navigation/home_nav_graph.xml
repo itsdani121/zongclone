@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.zongclone.mainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_loanFragment"
+            app:destination="@id/loanFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/usageFragment"
+        android:name="com.example.zongclone.usageFragment"
+        android:label="@string/usage"
+        tools:layout="@layout/fragment_usage" />
+    <fragment
+        android:id="@+id/loanFragment"
+        android:name="com.example.zongclone.LoanFragment"
+        android:label="fragment_loan"
+        tools:layout="@layout/fragment_loan" />
+
+</navigation>

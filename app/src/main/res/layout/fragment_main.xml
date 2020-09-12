@@ -9,6 +9,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="@dimen/_4sdp"
         tools:context=".mainFragment">
 
         <TextView
@@ -43,7 +44,7 @@
             android:id="@+id/currency"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:paddingStart="@dimen/_4sdp"
+            android:layout_marginStart="@dimen/_4sdp"
             android:text="@string/currency"
             android:textAllCaps="true"
             android:textColor="@color/black"
@@ -95,7 +96,7 @@
             android:id="@+id/wifi_cv"
             android:layout_width="@dimen/_100sdp"
             android:layout_height="@dimen/_150sdp"
-            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginTop="@dimen/_8sdp"
             app:cardCornerRadius="@dimen/_8sdp"
             app:cardUseCompatPadding="true"
             app:elevation="@dimen/_4sdp"
@@ -116,7 +117,8 @@
                     app:layout_constraintBottom_toTopOf="@id/card_number"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/card_number"
@@ -124,7 +126,6 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4sdp"
                     android:text="@string/number"
-                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="@dimen/_18ssp"
                     app:layout_constraintBottom_toTopOf="@id/card_reminder"
                     app:layout_constraintEnd_toStartOf="@id/card_mb"
@@ -139,6 +140,7 @@
                     android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_10ssp"
+                    android:visibility="gone"
                     app:layout_constraintBottom_toBottomOf="@id/card_number"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/card_number"
@@ -209,10 +211,10 @@
                     android:layout_marginTop="@dimen/_8sdp"
                     android:src="@drawable/ic_phone"
                     app:layout_constraintBottom_toTopOf="@id/card_numberx"
-
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:id="@+id/card_numberx"
@@ -233,6 +235,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/mb"
                     android:textAllCaps="true"
+                    android:visibility="gone"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_10ssp"
                     app:layout_constraintBottom_toBottomOf="@id/card_numberx"
@@ -333,6 +336,7 @@
                     android:textAllCaps="false"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_10ssp"
+                    android:visibility="gone"
                     app:layout_constraintBottom_toBottomOf="@id/card_numbersx"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@id/card_numbersx"
@@ -407,6 +411,7 @@
                     android:layout_height="@dimen/_30sdp"
                     android:layout_marginTop="@dimen/_8sdp"
                     android:src="@drawable/ic_gift_box"
+                    android:elevation="@dimen/_8sdp"
                     app:layout_constraintBottom_toTopOf="@id/rewards_tv"
                     app:layout_constraintEnd_toStartOf="@id/discount_iv"
                     app:layout_constraintStart_toStartOf="parent"
@@ -581,7 +586,7 @@
             <androidx.constraintlayout.widget.ConstraintLayout
 
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_90sdp">
+                android:layout_height="@dimen/_100sdp">
 
                 <TextView
                     android:id="@+id/hotoffer_iv"
@@ -623,7 +628,6 @@
                     android:id="@+id/nightOffer_iv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_8sdp"
                     android:text="@string/good_night_offer"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_12ssp"
@@ -636,10 +640,11 @@
                     android:id="@+id/switch1"
                     android:layout_width="@dimen/_50sdp"
                     android:layout_height="wrap_content"
+                    android:theme="@style/ThemeOverlay.MySwitchCompat"
                     app:layout_constraintBottom_toTopOf="@id/view3"
                     app:layout_constraintEnd_toEndOf="@id/view1"
                     app:layout_constraintTop_toBottomOf="@id/view1"
-                    app:trackTint="@color/red" />
+                    />
 
                 <TextView
                     android:id="@+id/nightGb_tv"
@@ -676,7 +681,6 @@
                     android:id="@+id/dayOffer_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_8sdp"
                     android:text="@string/day"
                     android:textColor="@color/black"
                     android:textSize="@dimen/_12ssp"
@@ -689,7 +693,6 @@
                     android:id="@+id/dayGb_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/_4sdp"
                     android:text="@string/_2_5gb"
                     android:textColor="@color/colorPrimary"
                     android:textSize="@dimen/_10ssp"
@@ -719,7 +722,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toBottomOf="@id/view3"
-                    app:trackTint="@color/red" />
+                    android:theme="@style/ThemeOverlay.MySwitchCompat"
+                    />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

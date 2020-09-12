@@ -31,4 +31,11 @@
     <string name="_2_5gb">2.5GB</string>
     <string name="pkr">16PKR</string>
     <string name="day">Day Time Offer</string>
+    <string name="subscription_details">Subscription Details:</string>
+    <string name="_3250pkr">3250pkr</string>
+    <string name="mbb">MBB</string>
+    <string name="time">time</string>
+    <string name="re_subscribe">Re-subscribe</string>
+    <string name="unsubcribe">Unsubcribe</string>
+    <string name="todo">TODO</string>
 </resources>
