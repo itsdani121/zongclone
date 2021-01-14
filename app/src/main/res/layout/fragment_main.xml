@@ -72,7 +72,7 @@
             android:background="@drawable/transparent"
             android:text="@string/recharge"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textSize="@dimen/_12ssp"
             app:layout_constraintBottom_toTopOf="@id/loan"
             app:layout_constraintEnd_toEndOf="parent"
@@ -86,7 +86,7 @@
             android:background="@drawable/transparent"
             android:text="@string/loan"
             android:textAllCaps="false"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="@color/white"
             android:textSize="@dimen/_12ssp"
             app:layout_constraintEnd_toEndOf="@id/recharge"
             app:layout_constraintStart_toStartOf="@id/recharge"
@@ -101,7 +101,7 @@
             app:cardBackgroundColor="@color/white"
             app:cardCornerRadius="@dimen/_8sdp"
             app:cardUseCompatPadding="true"
-            app:elevation="@dimen/_4sdp"
+            app:cardElevation="@dimen/_2sdp"
             app:layout_constraintEnd_toStartOf="@id/mns_cv"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/date">
@@ -707,7 +707,7 @@
                     app:layout_constraintTop_toBottomOf="@id/dayOffer_tv" />
 
                 <TextView
-                    android:id="@+id/dayPkr_tv"
+                    android:id="@ +id/dayPkr_tv"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/_4sdp"
